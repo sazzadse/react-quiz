@@ -32,6 +32,9 @@ export default function Videos() {
       <Link to="/quiz">
         <Video />
       </Link>
+      <Link to="/quiz">
+        <Video />
+      </Link>
     </div>
   );
 }
