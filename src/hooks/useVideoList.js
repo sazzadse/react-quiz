@@ -15,7 +15,7 @@ export default function useVideoList(page) {
                 videosRef,
                 orderByKey(),
                 startAt("" + page),
-                limitToFirst(3)
+                limitToFirst(8)
             );
             try {
                 setError(false);
